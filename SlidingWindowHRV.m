@@ -1,12 +1,9 @@
 function [WindowHRV_measures]= SlidingWindowHRV (ecg, qrs, IBIsec, fs, Time_for_window, window_overlap)
 
-%% original made by Tara Chand
-
-% To calculate dynamic HRV measures, using sliding window method
-%
+% Written by by Tara Chand 
+% Calculate dynamic HRV measures, using sliding window method
 
 
-%%
 dScanSec= 0; % dummy scan in sec
 
 % fprintf('the length ECG in Scanner for sub %s is %.3f\n', folder_name, length(ecg)/fs)
