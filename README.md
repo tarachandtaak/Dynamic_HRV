@@ -6,4 +6,4 @@ The calulation will be perform in follwing order: \
          1). Peak detection (saves computational time, if peak exists) \
          2). Peak correction \
          3). Outlier detection and removal of peak difference (IBI) \
-         4). IBI input -> HRV, PointProcessHRV and sliding window HRV measures analysis \
+         4). IBI input -> HRV, PointProcessHRV and sliding window HRV measures analysis 
