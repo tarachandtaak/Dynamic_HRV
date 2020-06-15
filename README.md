@@ -29,7 +29,8 @@ Reference: https://www.sequentix.de/gelquest/help/peakdetection.htm
 
 
 **Processing Flowchart:**  
-          Flowchart illustrates the processing insight in more detail and correspons to the code-stack!
+                  
+           Flowchart illustrates the processing insight in more detail and correspons to the code-stack!
 
 
 **Tutorial with Sample Data:**
