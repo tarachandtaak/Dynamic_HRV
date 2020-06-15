@@ -1,8 +1,9 @@
-# Dynamic_HRV
-To calculate dynamic HRV measures
+# D-HRV 1.0: Dynamic Heart Rate Variablity Toolbox
+Performs dynamic analysis of the heart rate variablity and it's derived measures. 
 
-% The calulation will be perform in follwing order: 
-%   1). If peak is not detected than first step should be to detect the peak 
-%   2). Peak will be manually corrected
-%   3). Outliers in peak to peak difference (IBI) will be removed
-%   4). Used this IBI to calucaltes the HRV/PointProcessHRV/sliding window HRV measures 
+# Implemented Computational Order for Dynamic-HRV analysis: 
+The calulation will be perform in follwing order: 
+   1). Peak detection (saves computational time, if peak exists)If peak is not detected than first step should be to detect the peak 
+   2). Peak correction
+   3). Outlier detection and removal of peak difference (IBI) 
+   4). IBI input -> HRV, PointProcessHRV and sliding window HRV measures analysis 
