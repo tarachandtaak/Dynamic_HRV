@@ -31,8 +31,11 @@ Reference: https://www.sequentix.de/gelquest/help/peakdetection.htm
 **Processing Flowchart:**  
 
 
-**Tutorial with Sample Data: **
+
+**Tutorial with Sample Data:**
 
 
-**Required Dependensies: **
+
+**Required Dependensies:**
+
            Matlab 2017 or Higher 
