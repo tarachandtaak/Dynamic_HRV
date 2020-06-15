@@ -30,14 +30,15 @@ Reference: https://www.sequentix.de/gelquest/help/peakdetection.htm
 
 **Processing Flowchart:**  
                   
-           Flowchart illustrates the processing insight in more detail and correspons to the code-stack!
+           Flowchart illustrates the processing insights in more detail and corresponds to the code-stack!
 
 
 **Tutorial with Sample Data:**
 
-            Let's play with the Sample data and analyze D-HRV ...
+            Let's play with one Sample data and analyze D-HRV ...
 
 
 **Required Dependensies:**
 
            Matlab 2017 or Higher 
+           Signal processing Toolbox
