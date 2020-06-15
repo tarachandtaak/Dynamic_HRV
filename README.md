@@ -8,6 +8,9 @@ Implemented Computational Order for Dynamic-HRV analysis:
                            Saves computational time, if peak exists) 
 
 
+Peak Detection. Once the raw data has been processed the peaks (bands in gel images) need to be identified. Peaks are detected as local maxima. A correct peak detection is tricky because the peaks within a sample can overlap. The trace curve is the sum of all peak signals.
+Reference: https://www.sequentix.de/gelquest/help/peakdetection.htm
+
          2). Peak Correction 
 
                            False peak removal
