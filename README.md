@@ -1,6 +1,6 @@
 # D-HRV 1.0: Dynamic Heart Rate Variablity Toolbox
 ```diff
-Performs dynamic analysis of the heart rate variablity and it's derived measures. 
+! Performs dynamic analysis of the heart rate variablity and it's derived measures. 
 ```
 **Implemented Computational Order for Dynamic-HRV analysis:** 
 
