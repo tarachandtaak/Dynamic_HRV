@@ -26,9 +26,11 @@ Reference: https://www.sequentix.de/gelquest/help/peakdetection.htm
 
 
 
-Dependensies: 
 
-How to use the code: 
+Processing Flowchart:  
 
 
-Tutorial: 
+Tutorial with Sample Data: 
+
+
+Required Dependensies: 
