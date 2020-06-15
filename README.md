@@ -6,7 +6,9 @@ Implemented Computational Order for Dynamic-HRV analysis:
 
          1). Peak Detection 
 Saves computational time, if peak exists) 
+
          2). Peak Correction 
+
 False peak removal
 Adds missing peak
  
