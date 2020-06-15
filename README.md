@@ -20,4 +20,3 @@ Implemented Computational Order for Dynamic-HRV analysis:
 
          4). IBI input -> HRV and sliding window HRV measures analysis 
                            Time and frequency measures
-
