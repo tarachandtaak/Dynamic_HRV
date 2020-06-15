@@ -35,6 +35,7 @@ Reference: https://www.sequentix.de/gelquest/help/peakdetection.htm
 
 **Tutorial with Sample Data:**
 
+            Let's play with the Sample data and analyze D-HRV ...
 
 
 **Required Dependensies:**
