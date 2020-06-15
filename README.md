@@ -2,6 +2,7 @@
 Performs dynamic analysis of the heart rate variablity and it's derived measures. 
 
 Implemented Computational Order for Dynamic-HRV analysis: 
+\
 The calulation will be perform in follwing order: \
          1). Peak detection (saves computational time, if peak exists) \
          2). Peak correction \
