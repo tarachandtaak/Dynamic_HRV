@@ -6,11 +6,13 @@
 
 
          1). Peak Detection 
+                           
                            Saves computational time, if peak exists! 
 
 
-Peak Detection. Once the raw data has been processed the peaks (bands in gel images) need to be identified. Peaks are detected as local maxima. A correct peak detection is tricky because the peaks within a sample can overlap. The trace curve is the sum of all peak signals.
-Reference: https://www.sequentix.de/gelquest/help/peakdetection.htm
+Heart rate variablity is a measure of fluctuations between heart beats (R-R peaks interval). Therefore to calculate HRV, heart beat detections. While acquring the data, some software detect peaks in real time. If this peak is not detected than 'peak detection' function detects the peak automatically. The peak detections can be perfromed usinf two algorithm: 
+1). Pan-Tompkins algorithm
+2). Billauer algorithm 
 
          2). Peak Correction 
 
