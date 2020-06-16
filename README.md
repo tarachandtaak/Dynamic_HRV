@@ -10,7 +10,7 @@
                            Saves computational time, if peak exists! 
 
 
-Heart rate variablity is a measure of fluctuations between heart beats (R-R peaks interval). Therefore to calculate HRV, heart beat detections. While acquring the data, some software detect peaks in real time. If this peak is not detected than 'peak detection' function detects the peak automatically. The peak detections can be performed using Pan-Tompkins and Billauer algorithms.  
+Heart rate variablity is a measure of fluctuations between heart beats (fluctuations in R-R peaks interval). Therefore to calculate HRV, the r-peak should be detected properly. While acquring the data, some software detect peaks in real time. If this peak is not detected than 'peak detection' function should used which detects the peaks automatically. The peaks detection can be performed using Pan-Tompkins and Billauer algorithms.  
 
          2). Peak Correction 
 
@@ -28,16 +28,18 @@ The intermittent errors in P-peaks due to the ectopic beats or movement artifact
                            Time and frequency measures
 
 Preprocessed IBI is used as a input for the HRV calculations. For calculations of the dynamic HRV measures, sliding window method is applied.  The choice of the parameters for the sliding window can be decided by the user. For example  window length should be short enough to track the fast temporal changes but long enough not to introduce spurious fluctuations. The overlap between successive windows typically may vary from a single data point up to the length of a window. Therefore, the step size of the shifting window is also a trade-off, moving one data point can lead to a large number of windowed-matric data points with the cost of the auto-correlation (Chang 2013, Lurie, 2020). <br />
+
 Both time and frequency domains measures can be calculates for each window. If No parameters is used for the sliding window than HRV will be calculates for whole recording time (static HRV)
 
 **Processing Flowchart:**  
                   
            Flowchart illustrates the processing insights in more detail and corresponds to the code-stack!
 
+![alt text](https://github.com/tarachandtaak/Dynamic_HRV/blob/master/SampleData/FlowChartGitHubTemp.jpg?raw=true)
 
-**Tutorial with Sample Data:**
+<!---**Tutorial with Sample Data:**
 
-            Let's play with one Sample data and analyze D-HRV ...
+            Let's play with one Sample data and analyze D-HRV ... --->
 
 
 **Required Dependensies:**
